@@ -2,7 +2,6 @@
 
 namespace App\EventListener;
 
-
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
 class RequestListener
