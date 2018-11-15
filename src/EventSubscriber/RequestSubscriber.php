@@ -6,7 +6,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
-class EventSubscriber implements EventSubscriberInterface
+class RequestSubscriber implements EventSubscriberInterface
 {
     public static function getSubscribedEvents()
     {
